@@ -1,1 +1,7 @@
-<script>location.replace(location.href.replace(/ghosttext/i, 'fregante'))</script>
+<script>
+	if (location.pathname.indexOf('demo') > 0) {
+		location.replace('https://ghosttext.fregante.com/test/');
+	} else {
+		location.replace('https://ghosttext.fregante.com/');
+	}
+</script>
